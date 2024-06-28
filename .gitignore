@@ -1,0 +1,7 @@
+# Intermediate folders
+*__pycache__
+*build
+wrapper.cpp
+
+# FFTW lib files
+lib/3rd_party_libs/fftw

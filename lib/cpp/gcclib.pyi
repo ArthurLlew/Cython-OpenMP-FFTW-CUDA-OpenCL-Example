@@ -1,0 +1,3 @@
+# This file is telling IDEs what can befound in .pyd module
+
+def do_fft(arr): ...

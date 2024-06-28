@@ -1,0 +1,16 @@
+Folder should have the following structure:
+
+fftw/fftw3.f
+fftw/fftw3.f03
+fftw/fftw3.h
+fftw/fftw3l.f03
+fftw/fftw3q.f03
+fftw/libfftw3-3.def
+fftw/libfftw3-3.dll
+fftw/libfftw3-3.exp
+fftw/libfftw3-3.lib
+fftw/libfftw3f-3.def
+fftw/libfftw3f-3.dll
+fftw/libfftw3l-3.def
+fftw/libfftw3l-3.dll
+.contents.txt

@@ -1,0 +1,1 @@
+nvcc --shared -DCUDADLL_EXPORTS -o cudalib.dll cudalib.cu

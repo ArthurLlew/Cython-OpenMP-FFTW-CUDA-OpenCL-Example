@@ -43,8 +43,11 @@ cudalib.cuda_func.argtypes = np.ctypeslib.ndpointer(dtype=np.complex128, ndim=2)
 cudalib.cuda_func.restype = None
 
 # Complex double presision array (you can even use slices when calling dll function!)
-arr2 = np.zeros((5, 4,4), dtype=np.complex128)
+arr2 = np.zeros((2, 4,4), dtype=np.complex128)
 # Make array C contiguous
 if not arr2.flags['C_CONTIGUOUS']:
     arr2 = np.ascontiguousarray(arr2)
 cudalib.cuda_func(arr2[0, :, :], *arr.shape)
+
+print('Cuda DLL result:')
+print(arr2)
